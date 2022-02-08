@@ -36,6 +36,19 @@ figcaption {
     text-align: center;
 }
 
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    font-weight:bold;
+    color: #333300;
+    position:fixed;
+    p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+  }
+
 p{
     margin-top: 80px;
     margin-bottom: 80px;
@@ -75,3 +88,14 @@ table {
     float:left;
     width: 10%;
 }
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    font-weight:bold;
+    color: #333300;
+    position:fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
