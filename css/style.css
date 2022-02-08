@@ -13,10 +13,17 @@ q {
   width: 40%;
   margin-left: 22.5%;
   margin-right: 22.5%;
-  border-left: solid #222 3px;
   font-size: 160%;
   background: #c0c0c0;
   padding: 30px;
+}
+
+.farmer {
+  border-left: solid #00FF00 3px;
+}
+
+.other {
+  border-left: solid #FF0000 3px;
 }
 
 figure {
@@ -39,6 +46,22 @@ figcaption {
 p {
   margin-top: 80px;
   margin-bottom: 80px;
+}
+
+.good {
+  color: #00FF00;
+}
+
+.bad {
+  color: #FF0000;
+}
+
+header:nth-child(0n+1) {
+  color: yellow;
+}
+
+#first {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
