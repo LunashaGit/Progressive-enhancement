@@ -64,4 +64,21 @@ header:nth-child(0n+1) {
   font-weight: bold;
 }
 
+table {
+  border: solid #222 1px;
+}
+table td, table th {
+  border: solid #222 1px;
+}
+
+#right {
+  float: right;
+  width: 10%;
+}
+
+#left {
+  float: left;
+  width: 10%;
+}
+
 /*# sourceMappingURL=style.css.map */

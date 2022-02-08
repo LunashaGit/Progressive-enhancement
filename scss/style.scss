@@ -56,3 +56,22 @@ header:nth-child(0n + 1){
 #first{
     font-weight: bold;
 }
+
+
+table {
+    border: solid #222 1px;
+    
+    td, th{
+    border: solid #222 1px;
+    }
+}
+
+#right{
+    float:right;
+    width: 10%;
+}
+
+#left{
+    float:left;
+    width: 10%;
+}
