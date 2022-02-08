@@ -1,4 +1,4 @@
-@import '_reset.scss';
+@import '_reset.scss', '_variable.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
 
@@ -21,6 +21,8 @@ q{
 .other{
     border-left: solid #FF0000 3px;
 }
+
+
 
 figure {
     border: thin #c0c0c0 solid;
@@ -103,3 +105,14 @@ table {
     margin-top: 0px;
     margin-bottom: 0px;
   }
+
+
+
+@media #{$responsive}{
+    q{
+        font-size: 80%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
