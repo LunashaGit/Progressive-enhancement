@@ -1,10 +1,22 @@
 body {
   margin: 0;
   padding: 0;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: -webkit-linear-gradient(-86deg, #233546, #acb7c3);
+  background: linear-gradient(-86deg, #233546, #acb7c3);
 }
 
 q {
   font-style: italic;
+  width: 40%;
+  margin-left: 22.5%;
+  margin-right: 22.5%;
+  border-left: solid #222 3px;
+  font-size: 160%;
+  background: #c0c0c0;
+  padding: 30px;
 }
 
 figure {
@@ -22,6 +34,11 @@ figcaption {
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
+}
+
+p {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */
