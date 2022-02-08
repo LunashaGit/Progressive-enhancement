@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -16,6 +17,7 @@ q {
   font-size: 160%;
   background: #c0c0c0;
   padding: 30px;
+  font-family: "Syne Tactile", cursive;
 }
 
 .farmer {
@@ -50,6 +52,7 @@ figcaption {
   font-weight: bold;
   color: #333300;
   position: fixed;
+  right: 10%;
 }
 .notification p {
   margin-top: 0px;
